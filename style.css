@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  background-color: #A2B5BB;
+  font-family: 'Sacramento', cursive;
+}
+
+textarea {
+  width: 100%;
+  height: 130px;
+  border: none;
+}
+
+/* classes */
+
+/********************* HEADER SECTION *****************/
+.first-container {
+  font-size: 30px;
+  background-color: #66BFBF;
+  padding: 10px;
+}
+
+.input_box {
+  min-width: 500px;
+  min-height: 30px;
+  margin-right: 28%;
+}
+
+
+/******************* PROFILE SECTION *****************/
+.cover-photo {
+  text-align: center;
+}
+
+.profile-picture {
+  margin-top: -160px;
+  background-color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-bottom: 2%;
+}
+
+.profile-pic {
+  border-radius: 50%;
+}
+
+.list {
+  display: inline-block;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/********************* FRIENDS SECTION ******************/
+.friends_tab {
+  background-color: white;
+  min-height: 400px;
+  flex:1;
+  margin-left: 20%;
+
+}
+
+/* ***************POST SECTION *************************/
+.post_tab {
+  background-color: #A2B5BB;
+  min-height: 400px;
+  flex: 3;
+  margin-right:20%;
+  margin-left: 30px;
+
+}
+.post{
+  background-color: white;
+
+
+}
+.post_comment{
+padding-bottom: 10px;
+}
+
+
+/************************** PHOTO SECTION **********************************/
+.photo_section{
+
+background-color: white;
+margin: 0 20% 0 20%;
+padding-top:10px;
+
+
+}
+
+/****************************** ABOUT SECTION **********************************/
+
+.about_sec{
+
+  flex:1;
+  margin-left:20%;
+  background-color: white;
+}
+.about_tab{
+  flex:2;
+  background-color: white;
+  margin-right: 20%;
+  text-align:left;
+  padding-left: 10px;
+
+}
+
+
+/********************* id's *****************************/
+#face {
+  margin-right: 3%;
+  margin-left: 14%;
+}
+
+#btn1{
+  margin-left:91%;
+  background-color: #405d9b;
+  border: none;
+  color: white;
+  font-size: 14px;
+  padding:5px;
+  border-radius: 2px;
+  width: 50px;
+}

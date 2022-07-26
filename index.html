@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+
+
+  </head>
+
+  <body style="background-color:#A2B5BB; font-family: 'Sacramento', cursive;">
+
+          <div class="border rounded-top rounded-bottom" style="background-color:white; text-align:center; margin: 15% 40% 0 40%; padding: 25px;">
+
+              <p style=" font-weight: bold; font: size 6px;"  >LOG IN YOUR ACCOUNT</p>
+                <form id="form_1">
+                  <div class="form">
+                      <input type="text" placeholder="Input Username" id="user1" name="user" class="form-control" required>
+
+                  </div><br>
+                  <div class="form">
+                      <input type="password" placeholder=" Input Password" id="pass1" name="password" class="form-control" required>
+
+                  </div><br>
+                <button class="submit btn btn-primary" id="login-submit" style="width:40%;">Login</button>
+
+                  <div style="text-align: center;">
+                      <p>
+                          Not have an account? <a href="">Sign up</a>
+                      </p>
+                      </div>
+                  </div>
+            </form>
+
+          </div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="bootstrap/bootstrap.bundle.min.js" charset="utf-8"></script>
+  </body>
+</html>
+
+
+<script>
+
+  $(document).ready(function(){
+
+    $('#form_1').submit(function(e){
+      e.preventDefault();
+
+        let user = $('#user1').val();
+        let pass = $('#pass1').val();
+
+        if(user == 'ronald' && pass == '123'){
+          alert('Welcome Bitch!')
+          window.location.href = "profile.html"
+        }else{
+          alert('Wrong Credentials Bitch!')
+        }
+
+    })
+
+
+
+  })
+
+
+</script>
